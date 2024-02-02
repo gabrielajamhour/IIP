@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Calendar
+comment0.text=\r\n\ Clase\ Calendar\:\ clase\ tipo\ de\ datos\ que\ representa\ el\ calendario\ \r\n\ de\ un\ lugar\ donde\ se\ celebran\ eventos.\r\n\r\n\ @author\ Parcial\ 2\ -\ Ejercicio\ 2\ \r\n\ @version\ IIP\ -\ Curso\ 2023/24\r\n
+comment1.params=
+comment1.target=Calendar()
+comment1.text=Crea\ un\ Calendar\ vac\u00EDo\ (sin\ eventos\ de\ ning\u00FAn\ tipo).
+comment2.params=
+comment2.target=int\ getNumEvents()
+comment2.text=\ Devuelve\ el\ n\u00FAmero\ actual\ de\ eventos.\r\n\ \ @return\ int,\ el\ n\u00FAmero\ de\ eventos.\r\n
+comment3.params=type
+comment3.target=int\ getNumType(int)
+comment3.text=\ Devuelve\ el\ n\u00FAmero\ de\ eventos\ de\ un\ tipo\ type\ dado,\ siendo\ 1\ <\=\ type\ <\=\ 3.\r\n\ \ @param\ type\ int,\ el\ tipo.\ Precondici\u00F3n\:\ 1\ <\=\ type\ <\=\ 3.\r\n\ \ @return\ int,\ el\ n\u00FAmero\ de\ eventos\ de\ tipo\ type.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ Devuelve\ la\ representaci\u00F3n\ como\ String\ de\ todos\ los\ eventos\ del\ calendario.\r\n\ \ @return\ String.\r\n
+comment5.params=e
+comment5.target=boolean\ overlaps(others2.Event)
+comment5.text=\ Devuelve\ true\ si\ un\ Event\ e\ dado\ se\ solapa\ con\ cualquier\ otro\ Event\ \r\n\ \ del\ calendario.\ En\ caso\ contrario,\ devuelve\ false.\r\n\ \ @param\ e\ Event,\ el\ evento.\r\n\ \ @return\ boolean,\ true\ si\ e\ se\ solapa\ y\ false\ en\ caso\ contrario.\r\n
+comment6.params=e
+comment6.target=boolean\ add(others2.Event)
+comment6.text=\ Dado\ un\ Event\ e,\ si\ cabe\ y\ no\ se\ solapa\ con\ ning\u00FAn\ otro\ del\ calendario,\ lo\ a\u00F1ade\ en\ orden\r\n\ \ cronol\u00F3gico\ y\ devuelve\ true.\ Si\ no\ cabe\ o\ hay\ solapamiento,\ no\ lo\ a\u00F1ade\ y\ devuelve\ false.\r\n\ \ @param\ e\ Event,\ evento\ a\ a\u00F1adir.\ \ \r\n\ \ @return\ boolean,\ true\ si\ se\ a\u00F1ade\ y\ false\ en\ caso\ contrario.\r\n
+comment7.params=t
+comment7.target=java.lang.String\ eventsStartTimeAt(others2.TimeInstant)
+comment7.text=\ Devuelve\ la\ representaci\u00F3n\ como\ String\ de\ todos\ los\ eventos\ del\ calendario\r\n\ \ cuyo\ instante\ de\ inicio\ sea\ el\ TimeInstant\ t\ dado.\ Si\ no\ hay\ eventos\ en\r\n\ \ dicha\ situaci\u00F3n,\ devuelve\ la\ cadena\ vac\u00EDa.\r\n\ \ La\ descripci\u00F3n\ como\ String\ de\ un\ evento\ debe\ ir\ separada\ de\ la\ del\ siguiente\ \r\n\ \ por\ una\ l\u00EDnea\ en\ blanco,\ esto\ es,\ debe\ acabar\ en\ salto\ de\ l\u00EDnea\ "\\n".\r\n\ \ @param\ t\ TimeInstant.\r\n\ \ @return\ String.\r\n
+numComments=8

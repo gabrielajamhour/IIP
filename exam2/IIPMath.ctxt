@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IIPMath
+comment0.text=\r\n\ Clase\ IIPMath\:\ clase\ de\ utilidades\ que\ implementa\r\n\ algunas\ operaciones\ matematicas.\r\n\ \r\n\ @author\ Parcial\ 2\ -\ Ejercicio\ 1\ \r\n\ @version\ IIP\ -\ Curso\ 2023/24\r\n
+comment1.params=
+comment1.target=IIPMath()
+comment1.text=No\ se\ pueden\ crear\ objetos\ de\ este\ tipo.
+comment2.params=epsilon
+comment2.target=int\ numberOfTerms(double)
+comment2.text=\ Devuelve\ el\ numero\ de\ terminos\ que\ se\ deben\ \r\n\ \ calcular\ de\ la\ serie\ siguiente\:\r\n\ \ \ \ \ a_1\ \=\ Raiz\ cuadrada\ de\ 2\ \r\n\ \ \ \ \ a_i\ \=\ Raiz\ cuadrada\ de\ (2\ *\ a_(i-1)),\ i\ >\ 1\r\n\ \ hasta\ obtener\ uno\ cuyo\ valor\ sea\ mayor\ o\ \r\n\ \ igual\ que\ 2\ -\ epsilon.\r\n\ \ PRECONDICION\:\ 0\ <\ epsilon\r\n
+numComments=3
