@@ -1,5 +1,5 @@
 package pract5;
-
+ 
 import java.util.Scanner;
 /**
  * Clase {@code Test5}: permite probar parte de la funcionalidad 
