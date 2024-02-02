@@ -1,5 +1,5 @@
 package pract4;
-import java.util.*;
+import java.util.*; 
 
 /**
  * Clase TimeInstant. 
