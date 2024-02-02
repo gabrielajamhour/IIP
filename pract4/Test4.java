@@ -1,4 +1,4 @@
-package pract4;
+package pract4; 
 import java.util.Scanner;
 /**
  *  Clase Test4.
