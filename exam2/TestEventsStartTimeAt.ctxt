@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=TestEventsStartTimeAt
-comment0.text=\r\n\ Clase\ TestEventsStartTimeAt\:\ clase\ programa\ para\ facilitar\ la\ prueba\ del\ c\u00F3digo,\ \r\n\ desarrollado\ por\ el\ alumno,\ para\ el\ m\u00E9todo\ eventsStartTimeAt(TimeInstant).\r\n\r\n\ Esta\ clase\ es\ para\ uso\ particular\ del\ alumno.\ \r\n\ No\ se\ entrega.\r\n\ \r\n\ @author\ Parcial\ 2\ -\ Ejercicio\ 2\ \r\n\ @version\ IIP\ -\ Curso\ 2023/24\r\n
-comment1.params=
-comment1.target=TestEventsStartTimeAt()
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
-numComments=3
