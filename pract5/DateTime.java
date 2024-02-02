@@ -1,5 +1,5 @@
 package pract5;
-
+ 
 import pract4.TimeInstant;
 /**
  * La clase {@code DateTime} permite representar un instante de una fecha 
